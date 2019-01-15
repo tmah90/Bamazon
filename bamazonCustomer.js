@@ -28,7 +28,7 @@ var getInventory = function(){
   var table = new Table(
     {
       head: ["Product ID", "Product Name", "Department Name", "Price", "Stock Quanitity"],
-      colWidths: [15,75,25,15,15],
+      colWidths: [20,50,20,15,25],
     });
     //loop inventory and push to table
     for (var i = 0; i < res.length; i++) {
